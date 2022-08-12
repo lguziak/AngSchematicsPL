@@ -1,0 +1,28 @@
+{
+    "title": "Material Stepper Order Wizard",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The name of the component."
+      },
+      "spec": {
+        "type": "string",
+        "description": "Specifies if a spec file is generated.",
+        "default": "true"
+      },
+      "path": {
+        "type": "string",
+        "description": "Specifies the path to create the Order Wizard under",
+        "default": ""
+      },
+      "project": {
+        "type": "string",
+        "description": "Specifies the project to run the schematic in",
+        "default": "defaultProject"
+      }
+    },
+    "required": [
+      "name"
+    ]
+  }
